@@ -1,0 +1,111 @@
+.raf{
+background-color:powderblue;}
+
+
+#ww{
+
+background-color: rgba(153, 153, 153, 0);
+
+}
+
+
+.client{
+ background-color: blanchedalmond;
+
+}
+
+a{
+
+color: black;
+}
+
+
+.madrid{
+
+background-color: darkcyan;
+}
+
+.navbar-nav>li>.dropdown-menu {
+
+background-color: burlywood;
+
+}
+
+
+.sally-navbar{
+
+
+padding-top: 30px;
+    padding-bottom: 30px;
+    background:white;
+
+}
+.sally-navbar.navbar-default .navbar-nav>.active>a{
+background:#3498db; 
+    color:white;
+}
+.sally-navbar .sally-cart{
+padding-left: 0px;
+border-left:1px; solid #969696;    
+
+
+ }
+.sally-navbar .sally-form-btn{
+    margin-right: 60px;
+
+}
+.sally-navbar .sally-btn-car{ 
+    background: #3498db;
+    color:white;
+    border-radius: 3px;
+}
+.sally-footer{
+padding-top:30px;
+    padding-bottom:30px; 
+    background-color: black;
+    color:white;
+}
+
+
+a:hover, a:active {
+    background-color: deepskyblue;
+    color: white;
+}
+    
+.navbar-brand{
+margin-top: -21px;
+
+}
+.sally-navbar{
+background-color:rgba(0, 150, 136, 0.46);
+}
+.sally-slider{
+    background: #E4e4e4;
+margin-top:-20px;
+padding-top: 30px;
+padding-bottom: 30px;}
+
+.rafik{
+    border:1px solid red;
+margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+.sc-item-img{
+margin-bottom: 20px;
+
+}
+.cc{
+border: 1px solid blue;
+    background-color: beige;
+
+}
+p.italic {
+    font-style: italic;
+}
+
+img.top {
+    vertical-align: text-top;
+}

@@ -1,0 +1,53 @@
+ .logpanel li {
+  
+  display: inline-block;
+}
+
+.logpanel a{
+    margin-left: 100%;
+  text-decoration: none;
+  background-color:blue;
+  color:white;
+  
+  border:1.5px solid black;
+}
+
+.logpanel a:hover{
+  background-color:deepskyblue;
+}[class*="col-"] {
+    float:right;
+    }
+.dropdown-menu > li > a {
+    display: red;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+
+}
+.titre{
+     padding-left: 80px;
+   
+}
+
+.section{
+    
+    
+    background-color: aquamarine;}
+.img{
+margin-left: 50px;
+}
+
+
+
+.contact{
+width: 100%;
+    background-color: antiquewhite;
+    display: block;
+
+}
+.rafik{
+margin-left: 50px;
+}

@@ -1,0 +1,47 @@
+<form name="valier" method="post" action="validerpanier.php">
+ 
+<table>
+<tr>
+<td>Nom</td><td></td><td></td><td>Quantit&eacute;</td><td></td><td></td><td>Prix Unitaire</td><td></td><td></td><td>Action</td>
+</tr>
+ 
+<?php
+	      for ($i=0 ;$i < $nbArticles ; $i++)
+	      {
+ 
+	         echo "<tr>";
+	         echo "<td>".htmlspecialchars($_SESSION['panier']['libelleProduit'][$i])."</td><td></td><td></td>";
+	         echo "<td><input type=\"text\" size=\"4\" name=\"q[]\" value=\"".htmlspecialchars($_SESSION['panier']['qteProduit'][$i])."\"/></td><td></td><td></td>";
+	         echo "<td> ".htmlspecialchars($_SESSION['panier']['prixProduit'][$i])." euro</td><td></td><td></td>";
+	         echo "<td><a href=\"".htmlspecialchars("resumpanier.php?action=suppression&l=".rawurlencode($_SESSION['panier']['libelleProduit'][$i]))."\">Supprimer</a></td>";
+	         echo "</tr>";
+ 
+	      }
+ 
+	      echo "<tr><td colspan=\"2\"> </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>";
+	      echo "<td colspan=\"2\">";
+	      echo "Total : ".MontantGlobal()." euro";
+	      echo "</td></tr>";
+ 
+ 
+	      echo "<tr><td colspan=\"4\">";
+	      echo "<input type=\"submit\" value=\"Rafraichir\"/>";
+	      echo "<input type=\"hidden\" name=\"action\" value=\"refresh\"/>";
+ 
+ 
+ 
+ 
+	     ?>
+	   <br/>
+<br/>
+<input type="submit" name="valider" value="Valider ma commande"/>
+	   <?php
+	   }
+ 
+ 
+	?>
+ 
+</table> 
+ 
+ 
+</form>
