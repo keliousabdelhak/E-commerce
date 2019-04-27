@@ -1,2 +1,2 @@
 # E-commerce
-e-commerce with php 
+e-commerce using php and javascript
